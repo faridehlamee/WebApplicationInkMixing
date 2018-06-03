@@ -26,7 +26,8 @@ namespace WebApplicationInkMixing.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=184.168.194.78;Initial Catalog=inkMixing;User ID=inkMixing")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=184.168.194.78;Initial Catalog=inkMixing;User ID=inkMixing;Password=F" +
+            "Hp3003976")]
         public string Setting {
             get {
                 return ((string)(this["Setting"]));
