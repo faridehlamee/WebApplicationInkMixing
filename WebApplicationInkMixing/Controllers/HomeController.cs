@@ -78,7 +78,13 @@ namespace WebApplicationInkMixing.Controllers
                                            DefaultAuthenticationTypes.ApplicationCookie);
                 authenticationManager.SignIn(new AuthenticationProperties() { },
                                              userIdentity);
+                ViewBag.SuccessMessage = "Youe registration is done!";
             }
+            else
+            {
+                ViewBag.SuccessMessage = "Youe registration is not done!";
+            }
+
             return View();
         }
         [Authorize]
